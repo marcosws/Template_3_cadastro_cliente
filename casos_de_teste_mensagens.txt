@@ -1,0 +1,8 @@
+O campo Nome deve ser preenchido !  ------------------------------ OK
+CPF inválido ! --------------------------------------------------- OK
+CNPJ inválido ! -------------------------------------------------- OK
+Formato de CPF/CNPJ inválido ! ----------------------------------- OK
+O campo Idade deve ser preenchido apenas com numeros ! ----------- OK
+O campo Idade deve ser preenchido  ! ----------------------------- OK
+O campo E-mail deve ser preenchido ! ----------------------------- OK
+Formato de E-mail inválido ! ------------------------------------- OK

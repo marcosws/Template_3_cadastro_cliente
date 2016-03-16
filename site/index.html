@@ -1,0 +1,65 @@
+<!-- Autor: Marcos Willian Souza -->
+<!-- *** Arquivo: index.html *** -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Cadastro de Cliente</title>
+		<!-- CSS -->
+		<link rel="stylesheet" href="css/base-style.css"/>
+		<!-- JQuery -->
+		<!-- <script src="http://code.jquery.com/jquery-latest.min.js"></script> ONLINE -->
+		<!-- <script src="js/jquery/jquery-1.12.1.js"></script> -->
+		<script src="js/jquery/jquery-2.2.1.js"></script>
+		<!-- JavaScript --->
+		<script src="js/script-js.js"></script>
+	</head>
+	<body>
+		<header>
+			<h1>Cadastro de Cliente</h1>
+		</header>
+		<section>
+			<aside>
+				<h1>Ultimo Cadastro</h1>
+				<ul>
+					<li><span>Nome:</span><br/>_nome_</li>
+					<li><span>CPF/CNPJ:</span><br/>_cpf_cnpj_</li>
+					<li><span>Tipo de Empresa:</span><br/>_tipo_empresa_</li>
+					<li><span>Idade:</span><br/>_idade_</li>
+					<li><span>E-mail:</span><br/>_email_</li>
+					<li><span>Homepage:</span><br/>_homepage_</li>
+				</ul>
+			</aside>
+			<article>
+					<h1>Cadastro de Cliente</h1>
+					<form id="formulario" name="formulario" class="formulario" method="POST">
+						<p>Nome:<br/>
+						<input name="nome" type="text" class="nome" id="nome"/></p>
+						<p>CPF/CNPJ:<br/>
+						<input name="cpf_cnpj" type="text" class="cpf_cnpj" id="cpf_cnpj"/></p>
+						<div id="pessoa_juridica">
+							<p>Tipo de Empresa:</br>
+							<select name="tipoempresa" class="tipo_empresa" id="tipo_empresa">
+								<option value="mei">MEI - Micro Empreendedor Individual</option>
+								<option value="mei">ME - Micro Empresa</option>
+								<option value="mei">EPP - Empresa de Pequeno Porte</option>
+								<option value="mei">EN - Empresa Normal</option>
+							</select></p>
+						</div>
+						<div id="pessoa_fisica">
+							<p>Idade:<br/>
+							<input name="idade" type="text" class="idade" id="idade"/></p>
+						</div>
+						<p>E-mail:<br/>
+						<input name="email" type="text" class="email" id="email"/></p>
+						<p>Homepage:<br/>
+						<input name="homepage" type="text" class="homepage" id="homepage"/></p>
+						<p><input value="Enviar" type="button" class="enviar" id="enviar"/></p>
+					</form>
+			</article>
+		</section>
+		<footer>
+			<p><span>&copy Copyright - Designed by: Marcos Willian de Souza<br>Cadastro de Cliente - 2016</span></p>
+		</footer>
+	</body>
+</html>

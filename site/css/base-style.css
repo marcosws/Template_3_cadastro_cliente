@@ -1,0 +1,147 @@
+/************************************************
+	Autor: Marcos Willian de Souza - 11/03/2016
+	Arquivo: base-style.css
+ ************************************************/
+@charset "UTF-8";
+
+
+/* ==== Sessão body ================================ */
+body{
+	background-color: #6B8E23;
+	color: #8B4513;
+	font: 100% Arial;
+}
+/* ==== Sessão header ============================== */
+header{
+	height: 150px;
+}
+/* ==== Sessão section ============================= */
+section{
+	float: auto;
+}
+section article{
+	background-color: #F0E68C;
+	float: auto;
+}
+section article form{
+	width: 590px;
+	padding: 20px 10px 20px 0px;
+	margin-left: 20px;
+}
+section article form p{
+	margin-left: 20px;
+}
+section article form input {
+	height: 20px;
+}
+section article form select {
+	height: 25px;
+}
+section article form input,
+section article form select {
+	color: #8B4513;
+	border: 2px solid #8B4513;
+	border-top-left-radius: 0.4em 0.4em;
+	border-top-right-radius: 0.4em 0.4em;
+    border-bottom-right-radius: 0.4em 0.4em;
+	border-bottom-left-radius: 0.4em 0.4em;
+}
+/* 'class'  para pintar a borda de verde/vermelho 
+   para validação usando o JQuery */
+.campo_valido{
+	border: 2px solid green;
+}
+.campo_invalido{
+	border: 2px solid red;
+}
+/* ==============================*/
+.enviar{
+	width: 80px;
+	height: 35px;
+	font-weight: bold;
+}
+/* id's da <div> para ocultar e mostrar os campos
+   Tipo Empresa e Idade  usando JQuery */
+#pessoa_fisica{
+	/* display: none; */
+}
+#pessoa_juridica{
+	display: none;
+}
+/* ====================================== */
+#nome {
+	width: 350px;
+}
+#cpf_cnpj{
+	/**/
+}
+#idade{
+	width: 60px;
+}
+#email,
+#homepage{
+	width: 250px;
+}
+#tipo_empresa{
+	width: 255px;
+}
+/* ==== Sessão aside ============================= */
+aside {
+	float: right;
+	margin-top: 70px;
+	width: 480px; 
+	height: 350px;
+}
+aside ul li{
+	font-size: 90%;
+}
+aside ul li span { 
+	font-weight: bold;
+}
+/* ==== Sessão footer ============================ */
+footer{
+	height: 90px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+footer p {
+	padding-top: 30px;
+	/* text-shadow: 1px 1px #696969; */
+	font-weight: bold;
+	font-size: 80%;
+}
+/* ==== Multiplas Sessões ======================= */
+header,
+aside,
+footer {
+	background-color: #BDB76B;
+}
+header,
+section,
+footer {
+	margin-right: 20px;
+	margin-left: 20px;
+}
+header h1,
+section article h1,
+aside h1{
+	text-shadow: 1px 1px #6B8E23;
+	padding: 20px 0px 20px 25px;
+	margin-left: 20px;
+}
+aside,
+header,
+article,
+footer {
+  -webkit-box-shadow: 0px 0px 30px #000; /* Saf3.0+, Chrome */
+     -moz-box-shadow: 0px 0px 30px #000; /* FF3.5 - 3.6 */
+          box-shadow: 0px 0px 30px #000; /* Opera 10.5, IE9, FF4+, Chrome 10+ */
+}
+aside,
+header,
+section,
+section article,
+footer {
+	border-top-left-radius: 3em 3em;
+    border-bottom-right-radius: 3em 3em; 
+}
